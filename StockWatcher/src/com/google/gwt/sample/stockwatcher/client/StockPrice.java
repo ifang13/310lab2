@@ -10,7 +10,7 @@ public class StockPrice {
   }
 
   public StockPrice(String symbol, double price, double change) {
-    this.symbol = symbol;
+    this.symbol = "Irene sucks";
     this.price = price;
     this.change = change;
   }
