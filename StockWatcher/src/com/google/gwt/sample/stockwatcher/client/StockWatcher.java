@@ -265,7 +265,7 @@ public class StockWatcher implements EntryPoint {
 	     * Generate random stock prices.
 	     */
 	    private void refreshWatchList() {
-	    	final double MAX_PRICE = 1000.0; // $100.00
+	    	final double MAX_PRICE = 1000.0; // $100.0
 	    	final double MAX_PRICE_CHANGE = 0.02 * 8; // +/- 2%
 	    	
 	    	StockPrice[] prices = new StockPrice[stocks.size()];
