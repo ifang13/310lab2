@@ -270,7 +270,7 @@ public class StockWatcher implements EntryPoint {
 	    	
 	    	StockPrice[] prices = new StockPrice[stocks.size()];
 	    	for (int i = 0; i < stocks.size(); i++) {
-	    		double price = Random.nextDouble() * MAX_PRICE;
+	    		double price = Random.nextDouble() * MAX_PRICE * 3;
 	    		double change = price * MAX_PRICE_CHANGE* (Random.nextDouble() * 2.0 - 1.0);
 
 	    		prices[i] = new StockPrice(stocks.get(i), price, change);
